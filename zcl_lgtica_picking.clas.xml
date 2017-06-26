@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_LGTICA_PICKING</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>S</LANGU>
+    <DESCRIPT>Proceso Logistico para Picking</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <CLSFINAL>X</CLSFINAL>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_PICKING</CLSNAME>
+     <CMPNAME>ADD_CANTIDAD</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Guarda Adicion de cantidades</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_PICKING</CLSNAME>
+     <CMPNAME>ADD_SER_LOT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Guarda Seriales y Lotes</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_PICKING</CLSNAME>
+     <CMPNAME>CERRAR_PICKING</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Cierra Picking</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_PICKING</CLSNAME>
+     <CMPNAME>CREATE_BY_PKBLE_REF</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Crea Registros en Tabla de Cabeceras y Posiciones Picking</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_PICKING</CLSNAME>
+     <CMPNAME>CREATE_BY_PKBLE_REF_PCMP</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Crea Registros en Tabla de Cabeceras y Posiciones Picking</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_PICKING</CLSNAME>
+     <CMPNAME>CREATE_BY_PKBLE_REF_PVTA</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Crea Registros en Tabla de Cabeceras y Posiciones Picking</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_PICKING</CLSNAME>
+     <CMPNAME>GET_DATA_BY_AGLUTINADOR</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Consulta el número de documento de picking</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_PICKING</CLSNAME>
+     <CMPNAME>GET_DATA_BY_ENTREGA</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Consulta el número de documento de picking</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_PICKING</CLSNAME>
+     <CMPNAME>GET_DATA_BY_ENTREGA_PND</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Consulta el número de documento de picking Pendiente</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_PICKING</CLSNAME>
+     <CMPNAME>GET_DATA_BY_ORDEN</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Consulta el número de documento de picking</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_PICKING</CLSNAME>
+     <CMPNAME>GET_DATA_BY_ORDEN_AG</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Consulta el número de documento de picking</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_PICKING</CLSNAME>
+     <CMPNAME>GET_DATA_BY_ORDEN_B</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Consulta el número de documento de picking</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_PICKING</CLSNAME>
+     <CMPNAME>GET_DATA_BY_PEDIDO</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Consulta el número de documento de picking</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_PICKING</CLSNAME>
+     <CMPNAME>GET_DATA_BY_PKBLE_REF</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Consulta los documentos de picking asociados</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_PICKING</CLSNAME>
+     <CMPNAME>GET_DATA_BY_RSNUM</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Consulta el número de documento de picking</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_PICKING</CLSNAME>
+     <CMPNAME>LOAD_PICKING</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Carga Atributos Documento Picking</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_PICKING</CLSNAME>
+     <CMPNAME>MODIFY_PICKING_BY_RECIBO</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Modificar picking por devolución de recibos</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_PICKING</CLSNAME>
+     <CMPNAME>PICKNUM</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Número de documento de Picking</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_PICKING</CLSNAME>
+     <CMPNAME>SET_CREATE_BY_PKBLE_REF</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Reinicializa Registros de Posiciones Picking</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_PICKING</CLSNAME>
+     <CMPNAME>S_PICKING</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Cabecera del documento de picking</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_PICKING</CLSNAME>
+     <CMPNAME>T_PICKING_DET</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Tipo tabla Posición del documento de picking</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_PICKING</CLSNAME>
+     <CMPNAME>T_PICKING_LOT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Tipo tabla Lotes picking</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_PICKING</CLSNAME>
+     <CMPNAME>T_PICKING_SER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Tipo tabla seriales de picking</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_PICKING</CLSNAME>
+     <CMPNAME>UPDATE_PICKING_BY_CANT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Actualiza o Redistribuye cantidad en las posiciones picking</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

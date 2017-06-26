@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_LGTICA_TRANSPORTE</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>S</LANGU>
+    <DESCRIPT>Transporte</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <CLSFINAL>X</CLSFINAL>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_TRANSPORTE</CLSNAME>
+     <CMPNAME>ASOCIAR_DOCUMENTO</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Asociar Documento a Transporte</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_TRANSPORTE</CLSNAME>
+     <CMPNAME>ASOCIAR_ENTREGA</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Asociar Entrega a Transporte</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_TRANSPORTE</CLSNAME>
+     <CMPNAME>CREAR_TRANSPORTE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Crear transporte</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_TRANSPORTE</CLSNAME>
+     <CMPNAME>DESASOCIAR_ENTREGA</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Desasociar Documento a Transporte</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_TRANSPORTE</CLSNAME>
+     <CMPNAME>FINALIZAR_DESPACHO</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Actualizar fechas despacho expedición del transporte</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_TRANSPORTE</CLSNAME>
+     <CMPNAME>GET_DATA_BY_DOC</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtener Datos del transporte a partir de un Documento</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_TRANSPORTE</CLSNAME>
+     <CMPNAME>INICIAR_DESPACHO</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Actualizar fechas de finalización de Carga del transporte</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_TRANSPORTE</CLSNAME>
+     <CMPNAME>PLANIFICAR_TRANSPORTE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Actualizar fechas de finalización de Carga del transporte</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

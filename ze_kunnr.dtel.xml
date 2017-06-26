@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZE_KUNNR</ROLLNAME>
+    <DDLANGUAGE>S</DDLANGUAGE>
+    <DOMNAME>KUNNR</DOMNAME>
+    <MEMORYID>KUN</MEMORYID>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>10</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Nº de cliente 1</DDTEXT>
+    <REPTEXT>Cliente</REPTEXT>
+    <SCRTEXT_S>Cliente</SCRTEXT_S>
+    <SCRTEXT_M>Cliente</SCRTEXT_M>
+    <SCRTEXT_L>Cliente</SCRTEXT_L>
+    <APPLCLASS>V</APPLCLASS>
+    <DTELMASTER>D</DTELMASTER>
+    <SHLPNAME>C_KUNNR</SHLPNAME>
+    <SHLPFIELD>KUNNR</SHLPFIELD>
+    <DEFFDNAME>CUSTOMER</DEFFDNAME>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <TPARA>
+    <PARAMID>KUN</PARAMID>
+    <PARTEXT>Deudor</PARTEXT>
+   </TPARA>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>3</LANGU>
+    <LANGU>D</LANGU>
+    <LANGU>E</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>R</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>客户编号1</DDTEXT>
+     <REPTEXT>客户</REPTEXT>
+     <SCRTEXT_S>客户</SCRTEXT_S>
+     <SCRTEXT_M>客户</SCRTEXT_M>
+     <SCRTEXT_L>客户</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DDTEXT>고객 번호 1</DDTEXT>
+     <REPTEXT>고객</REPTEXT>
+     <SCRTEXT_S>고객</SCRTEXT_S>
+     <SCRTEXT_M>고객</SCRTEXT_M>
+     <SCRTEXT_L>고객</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Debitorennummer 1</DDTEXT>
+     <REPTEXT>Debitor</REPTEXT>
+     <SCRTEXT_S>Debitor</SCRTEXT_S>
+     <SCRTEXT_M>Debitor</SCRTEXT_M>
+     <SCRTEXT_L>Debitor</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Customer Number 1</DDTEXT>
+     <REPTEXT>Customer</REPTEXT>
+     <SCRTEXT_S>Customer</SCRTEXT_S>
+     <SCRTEXT_M>Customer</SCRTEXT_M>
+     <SCRTEXT_L>Customer</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Numéro de client 1</DDTEXT>
+     <REPTEXT>Client</REPTEXT>
+     <SCRTEXT_S>Client</SCRTEXT_S>
+     <SCRTEXT_M>Client</SCRTEXT_M>
+     <SCRTEXT_L>Client</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>得意先コード 1</DDTEXT>
+     <REPTEXT>得意先</REPTEXT>
+     <SCRTEXT_S>得意先</SCRTEXT_S>
+     <SCRTEXT_M>得意先コード</SCRTEXT_M>
+     <SCRTEXT_L>得意先コード</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Debiteurnummer 1</DDTEXT>
+     <REPTEXT>Debiteur</REPTEXT>
+     <SCRTEXT_S>Debiteur</SCRTEXT_S>
+     <SCRTEXT_M>Debiteur</SCRTEXT_M>
+     <SCRTEXT_L>Debiteur</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Nº cliente 1</DDTEXT>
+     <REPTEXT>Cliente</REPTEXT>
+     <SCRTEXT_S>Cliente</SCRTEXT_S>
+     <SCRTEXT_M>Cliente</SCRTEXT_M>
+     <SCRTEXT_L>Cliente</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Номер дебитора 1</DDTEXT>
+     <REPTEXT>Дебитор</REPTEXT>
+     <SCRTEXT_S>Дебитор</SCRTEXT_S>
+     <SCRTEXT_M>Дебитор</SCRTEXT_M>
+     <SCRTEXT_L>Дебитор</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

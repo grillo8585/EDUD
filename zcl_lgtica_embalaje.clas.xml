@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_LGTICA_EMBALAJE</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>S</LANGU>
+    <DESCRIPT>Proceso Logistico para Unidades de Embalaje</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <CLSFINAL>X</CLSFINAL>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_EMBALAJE</CLSNAME>
+     <CMPNAME>BORRAR_UM</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Eliminar unidad de manipulación</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_EMBALAJE</CLSNAME>
+     <CMPNAME>BORRAR_UM_SE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Eliminar unidad de manipulación se</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_EMBALAJE</CLSNAME>
+     <CMPNAME>CREAR_UM</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Crear unidad de manipulación</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_EMBALAJE</CLSNAME>
+     <CMPNAME>ENTREGA</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Entrega</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_EMBALAJE</CLSNAME>
+     <CMPNAME>GET_LIST_ROTULOS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtener rotulos asociados a una entrega</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_EMBALAJE</CLSNAME>
+     <CMPNAME>GET_ROTULO</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtener datos del rotulo</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_EMBALAJE</CLSNAME>
+     <CMPNAME>GET_ROTULO_SE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtener datos del rotulo</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_EMBALAJE</CLSNAME>
+     <CMPNAME>GET_UM_ROTULO</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtener unidad de manipulación de un rotulo</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_EMBALAJE</CLSNAME>
+     <CMPNAME>GET_UM_ROTULO_SE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtener unidad de manipulación de un rotulo</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_EMBALAJE</CLSNAME>
+     <CMPNAME>GET_UNIDADES</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtiene Unidad de Embalaje</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_EMBALAJE</CLSNAME>
+     <CMPNAME>PACK_MATERIAL</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Asignar material a unidad de manipulación</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_EMBALAJE</CLSNAME>
+     <CMPNAME>PACK_MATERIAL_SE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Asignar material a unidad de manipulación</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_EMBALAJE</CLSNAME>
+     <CMPNAME>PRINT_UNIDADES</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Imprime Unidad de Embalaje</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_EMBALAJE</CLSNAME>
+     <CMPNAME>TRANSPORTE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Nº de transporte</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_EMBALAJE</CLSNAME>
+     <CMPNAME>UPDATE_UBICACION</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Actualizar ubicación de unidad de manipulación</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_EMBALAJE</CLSNAME>
+     <CMPNAME>VACIAR_UM</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Vaciar unidad de manipulación</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

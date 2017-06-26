@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_LGTICA_PACKING</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>S</LANGU>
+    <DESCRIPT>Clase para el manejo de Packing</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <CLSFINAL>X</CLSFINAL>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_PACKING</CLSNAME>
+     <CMPNAME>ADD_SER_LOT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Guarda Seriales y Lotes</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_PACKING</CLSNAME>
+     <CMPNAME>CERRAR_PACKING</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Cierra Packing</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_PACKING</CLSNAME>
+     <CMPNAME>CREATE_BY_PAKBLE_REF</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Crea Registros en Tabla de Cabeceras y Posiciones Packing</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_PACKING</CLSNAME>
+     <CMPNAME>GET_DATA_BY_DELIVERY</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtener packnum apartir de la entrega</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_PACKING</CLSNAME>
+     <CMPNAME>GET_DATA_BY_ORDEN</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtener packnum apartir de la reserva</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_PACKING</CLSNAME>
+     <CMPNAME>GET_DATA_BY_PAKBLE_REF</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Consulta los registros de las cantidades de packing</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_PACKING</CLSNAME>
+     <CMPNAME>GET_DATA_BY_RSNUM</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtener packnum apartir de la reserva</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_PACKING</CLSNAME>
+     <CMPNAME>GET_DATA_BY_TKNUM</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtener packnum apartir del transporte</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_PACKING</CLSNAME>
+     <CMPNAME>LOAD_PACKING</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Carga un documento de packing</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_PACKING</CLSNAME>
+     <CMPNAME>PACKNUM</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Número de documento de Packing</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_PACKING</CLSNAME>
+     <CMPNAME>PACK_MATERIAL</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Asignar material a unidad de manipulación</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_PACKING</CLSNAME>
+     <CMPNAME>PACK_MATERIAL_SE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Asignar material a unidad de manipulación</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_PACKING</CLSNAME>
+     <CMPNAME>SET_CREATE_BY_PAKBLE_REF</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Reinicializa Registros de Posiciones Packing</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_PACKING</CLSNAME>
+     <CMPNAME>S_PACKING</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Cabecera del documento de packing</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_PACKING</CLSNAME>
+     <CMPNAME>S_PACKING_TR</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Cabecera de Transporte Packing</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_PACKING</CLSNAME>
+     <CMPNAME>T_PACKING_DET</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Tipo tabla Posición del documento de packing</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_PACKING</CLSNAME>
+     <CMPNAME>T_PACKING_LOT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Tipo tabla Lotes packing</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_PACKING</CLSNAME>
+     <CMPNAME>T_PACKING_SER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Tipo tabla seriales de packing</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_PACKING</CLSNAME>
+     <CMPNAME>T_PACKING_UM</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Tipo de tabla detalle de Packing</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_PACKING</CLSNAME>
+     <CMPNAME>UPDATE_PACKING_BY_CANT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Actualiza o Redistribuye cantidad en las posiciones packing</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

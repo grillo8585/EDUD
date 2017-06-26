@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_LGTICA_DESPACHO</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>S</LANGU>
+    <DESCRIPT>Clase para el manejo de Despacho</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <CLSFINAL>X</CLSFINAL>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_DESPACHO</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Constructor de instancia</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_DESPACHO</CLSNAME>
+     <CMPNAME>DESPNUM</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Número de documento de Despacho</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_DESPACHO</CLSNAME>
+     <CMPNAME>DETALLES_USUARIO</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Detalles Para Usuario</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_DESPACHO</CLSNAME>
+     <CMPNAME>GET_CABECERA</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Consulta Cabecera de un Documento Despacho</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_DESPACHO</CLSNAME>
+     <CMPNAME>GET_DETALLE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Consulta Detalle de un Documento Despacho</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_DESPACHO</CLSNAME>
+     <CMPNAME>GET_DETALLES_USUARIO</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtiene Impresora, Centro y Almacen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_DESPACHO</CLSNAME>
+     <CMPNAME>GUARDAR_DESPACHO</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Guardar despacho</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_DESPACHO</CLSNAME>
+     <CMPNAME>MENSAJES</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Mensajes de Respuesta en Procesamiento de Documento</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_DESPACHO</CLSNAME>
+     <CMPNAME>S_DESPACHO</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Cabecera para un Documenton despacho</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_LGTICA_DESPACHO</CLSNAME>
+     <CMPNAME>TIPO_DOCUMENTO</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Tipo de Documento</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

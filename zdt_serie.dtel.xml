@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZDT_SERIE</ROLLNAME>
+    <DDLANGUAGE>S</DDLANGUAGE>
+    <HEADLEN>11</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>11</SCRLEN2>
+    <SCRLEN3>11</SCRLEN3>
+    <DDTEXT>Flag indicador de material con serial</DDTEXT>
+    <REPTEXT>Flag Serial</REPTEXT>
+    <SCRTEXT_S>Flag Seria</SCRTEXT_S>
+    <SCRTEXT_M>Flag Serial</SCRTEXT_M>
+    <SCRTEXT_L>Flag Serial</SCRTEXT_L>
+    <DTELMASTER>S</DTELMASTER>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000001</LENG>
+    <OUTPUTLEN>000001</OUTPUTLEN>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

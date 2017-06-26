@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZCLPCK</ARBGB>
+    <MASTERLANG>S</MASTERLANG>
+    <STEXT>Mensajes para proceso de picking</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZCLPCK</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>No Existen Entregas para El Documento &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZCLPCK</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Revisar Datos para la Entrega: &amp;1 E:No se ha leído el lote esperado: &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZCLPCK</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Se Actualizo la Entrega &amp;1 del Documento &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZCLPCK</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Revisar Datos para la Entrega: &amp;1 La Entrega no se ha Contabilizado</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZCLPCK</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>La Entrega: &amp;1 no se Encuentra Registrada en Tabla de Picking</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZCLPCK</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>No Existen EANs para los materiales ingresados</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>
